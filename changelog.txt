@@ -1,0 +1,8 @@
+Versión 0.1b (nov 2012)
+=============
+Versión inicial experimental solo a nivel de scripts,
+automatiza la versión papel de:
+
+- El diario austral de Temuco
+- Las Ultimas Noticias. 
+
