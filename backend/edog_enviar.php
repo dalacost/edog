@@ -26,7 +26,7 @@ try {
 	//------------------------------------------------------
   	  $correo_emisor="edog@gulix.cl";
 	  $nombre_emisor="EDog";
-	  $contrasena="caninovirtual.";
+	  $contrasena=""; //clave del correo
 	  $correo_destino_default="edog@gulix.cl";
 	  $nombre_destino_default="EDog";
 	  $correo_reply_to="contacto@gulix.cl";
@@ -43,6 +43,7 @@ try {
 	  $mail->AddReplyTo($correo_reply_to, $nombre_remply_to);
 	  $mail->AddAddress($correo_destino_default, $nombre_destino_default);
 	  
+//destinatarios, cambiar por los que quieras
   $mail->AddBCC('racl@gulix.cl', '');
   $mail->AddBCC('danilote@gulix.cl', '');
   $mail->AddBCC('fedoro@gulix.cl', '');
